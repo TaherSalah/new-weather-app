@@ -25,6 +25,7 @@
                              /* overflow: hidden !important; */
                              display: flex;
                          }
+                         /********************************************************* Start loading Style***********************************************************/
                          
                          .loading {
                              position: fixed;
@@ -68,6 +69,7 @@
                                  transform: rotate(1800deg);
                              }
                          }
+                         /********************************************************* End loading Style***********************************************************/
                          /********************************************************* Start nav  Style***********************************************************/
                          
                          .navbar {
@@ -75,10 +77,6 @@
                              background-color: #333d44 !important;
                              display: none;
                              margin: auto !important;
-                         }
-                         
-                         .navbar-brand img {
-                             width: 10rem;
                          }
                          
                          .navbar-brand {
@@ -387,7 +385,6 @@
                                  font-size: 40px !important;
                              }
                          }
-                         /********************************************************* End media  screen****************************************************/
                          
                          @media screen and (min-device-width: 320px) and (max-device-width:480px) {
                              .wrapper {
@@ -396,3 +393,4 @@
                                  display: none;
                              }
                          }
+                         /********************************************************* End media  screen****************************************************/
