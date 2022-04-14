@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Weather App</title>
+    <!-- start Linkes bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Linking BoxIcon for Icon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- start Linkes Style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!----------------------------Start Navbar section------------------------------------------------>
+    <nav class="navbar navbar-expand-lg m-auto navbar-light bg-info fixed-top ">
+        <div class="container ">
+            <a class="navbar-brand " href="# ">Weather <span class="text-white "> App</span></a>
+        </div>
+        </div>
+    </nav>
+
+    <!-----------------------------------------End Navbar section------------------------------------------------------->
+    <!-----------------------------------------Start wrapper section------------------------------------------------------->
+    <div class="loading ">
+        <div class="lds-hourglass "></div>
+    </div>
+    <div class='wrapper'>
+        <header><button class="btnBack "><i class="fa iconLeft fa-arrow-left "></i></button>Weather App</header>
+        <section class="input-part ">
+            <p class="info-text "></p>
+            <input type="text " placeholder="Enter City Name " spellcheck="false " required>
+            <div class="seprator "></div>
+            <button>Get Device Location</button>
+        </section>
+        <section class="weather-part ">
+            <img src="# " alt="weather-icon " srcset=" ">
+            <div class="temp ">
+                <span class="number ">13</span>
+                <span class="degree ">°c</span>
+            </div>
+            <div class="weather ">broken</div>
+            <div class="location ">
+                <i class="fa locicon fa-map-marker-alt "></i>
+                <span>Cairo,Dokki</span>
+            </div>
+            <div class="bottom-details">
+                <div class="column feels ">
+                    <i class="fa bottomIcon fa-thermometer-half "></i>
+                    <div class="details ">
+                        <div class="temp ">
+                            <span class="number">17</span>
+                            <span class="degree">°c</span>
+                        </div>
+                        <p>Feels Like</p>
+                    </div>
+                </div>
+                <div class="column humidity ">
+                    <i class="bx bottomIcon bxs-droplet-half "></i>
+                    <div class="details ">
+                        <div class="temp ">
+                            <span class="number2 ">84%</span>
+                        </div>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-----------------------------------------End wrapper section------------------------------------------------------->
+    <!------------------------------------------- Start Footer ----------------------------------------------------------->
+    <footer class=" position-absolute align-content-end ">
+        <div class="container text-white text-center ">
+            <div class="row ">
+
+                <div class="col-md-12 ">
+                    <ul class="list-unstyled ">
+                        <a class="text-decoration-none " href="https://www.facebook.com/taher.salah.7927 " target="_blank ">
+                            <li class="socialMe list-inline-item "><i class="fab1 fab fa-facebook "></i></li>
+                        </a>
+                        <a class="text-decoration-none " href="https://www.instagram.com/tahersalahm/ " target="_blank ">
+                            <li class="socialMe list-inline-item "><i class="fab2 fab fa-instagram "></i></li>
+                        </a>
+                        <a class="text-decoration-none " href="https://www.linkedin.com/in/taher-salah-1a5622134/ " target="_blank ">
+                            <li class="socialMe list-inline-item "><i class="fab3 fab fa-linkedin "></i></li>
+                        </a>
+                        <a class="text-decoration-none " href=" " target="_blank ">
+                            <li class="socialMe list-inline-item "><i class="fab4 fab fa-twitter "></i></li>
+                        </a>
+                        <a class="text-decoration-none " href="https://github.com/TaherSalah " target="_blank ">
+                            <li class="socialMe list-inline-item "><i class="fab5 fab fa-github "></i></li>
+                        </a>
+                        <a class="text-decoration-none " href="# ">
+                            <li class="socialMe list-inline-item "><i class="fab6 fab fa-google "></i></li>
+                        </a>
+                        <a class="text-decoration-none " href="https://api.whatsapp.com/send/?phone=01094529752&text&app_absent=0 " target="_blank ">
+                            <li class="socialMe list-inline-item "><i class="fab7 fab fa-whatsapp "></i></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-------------------------------------------------- End Footer ----------------------------------------------------------
+
+    <!-- start Linkes script for Js -->
+    <script src="js/jquery-3.6.0.js "></script>
+    <script src="js/all.min.js "></script>
+    <script src="js/main.js "></script>
+    <!-- End Linkes script for Js -->
+</body>
+
+</html>
